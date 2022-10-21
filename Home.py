@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly_express as px
+import plotly.express as px
 import webbrowser
 
 st.set_page_config (page_title='Uefa Champions League', page_icon='⚽', layout='wide')
