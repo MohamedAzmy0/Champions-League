@@ -5,12 +5,12 @@ import pandas as pd
 # Load Data
 attacking = pd.read_csv('./Sources//attacking.csv').drop('serial' , axis=1)
 attempts = pd.read_csv('./Sources//attempts.csv').drop('serial' , axis=1)
-defending = pd.read_csv('./Sources//defending.csv').drop('serial' , axis=1)
-disciplinary = pd.read_csv('./Sources//disciplinary.csv').drop('serial' , axis=1)
-distribution = pd.read_csv('./Sources//distribution.csv').drop('serial' , axis=1)
-goalkeeping = pd.read_csv('./Sources//goalkeeping.csv').drop('serial' , axis=1)
-goals = pd.read_csv('./Sources//goals.csv').drop('serial' , axis=1)
-key_stats = pd.read_csv('./Sources//key_stats.csv')
+defending = pd.read_csv('./Sources/defending.csv').drop('serial' , axis=1)
+disciplinary = pd.read_csv('./Sources/disciplinary.csv').drop('serial' , axis=1)
+distribution = pd.read_csv('./Sources/distribution.csv').drop('serial' , axis=1)
+goalkeeping = pd.read_csv('./Sources/goalkeeping.csv').drop('serial' , axis=1)
+goals = pd.read_csv('./Sources/goals.csv').drop('serial' , axis=1)
+key_stats = pd.read_csv('./Sources/key_stats.csv')
 
 
 
